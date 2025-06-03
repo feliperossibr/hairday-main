@@ -13,7 +13,8 @@
     "url": "https://github.com/feliperossibr/hairday-main/issues"
   },
   "homepage": "https://github.com/feliperossibr/hairday-main#readme",
-  "description": "",
+  "description": "Aplicação Web de agendamento para corte de cabelo.",
+  "author": "Felipe Rossi",
   "scripts": {
     "server": "json-server --watch server.json --port 3333"
   },
