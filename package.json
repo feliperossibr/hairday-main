@@ -2,9 +2,6 @@
   "name": "hairday-main",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/feliperossibr/hairday-main.git"
@@ -17,6 +14,9 @@
   },
   "homepage": "https://github.com/feliperossibr/hairday-main#readme",
   "description": "",
+  "scripts": {
+    "server": "json-server --watch server.json --port 3333"
+  },
   "dependencies": {
     "json-server": "^1.0.0-alpha.21"
   }
